@@ -1,9 +1,8 @@
-import { TextStatistics, NotificationMessage } from './Notification.styled';
+import { NotificationMessage } from './Notification.styled';
 import PropTypes from 'prop-types';
 export const Notification = ({ message }) => {
   return (
     <>
-      <TextStatistics>Statistics</TextStatistics>
       <NotificationMessage>{message}</NotificationMessage>
     </>
   );

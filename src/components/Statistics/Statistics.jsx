@@ -1,4 +1,4 @@
-import { TextStatistics, StatisticsWrapper } from './Statistics.styled';
+import { StatisticsWrapper } from './Statistics.styled';
 import PropTypes from 'prop-types';
 export const Statistics = ({
   good,
@@ -9,7 +9,6 @@ export const Statistics = ({
 }) => {
   return (
     <>
-      <TextStatistics>Statistics</TextStatistics>
       <StatisticsWrapper>
         <span>Good:{good}</span>
         <span>Neutral:{neutral}</span>
